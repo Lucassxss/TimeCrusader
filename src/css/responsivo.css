@@ -1,1 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+/* Ajustes de media queries para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    /* Estilos gerais para dispositivos móveis */
+    body {
+        font-family: 'Press Start 2P', cursive;
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Ajustes para cabeçalho e rodapé */
+    header, footer {
+        padding: 10px 0;
+        border-bottom: 2px solid #ffcc00;
+        border-top: 2px solid #ffcc00;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    header h1 {
+        margin: 10px 0;
+        font-size: 24px;
+    }
+
+    header h2 {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    .logofeia {
+        height: 50px;
+        width: auto;
+    }
+
+    /* Ajustes para o main */
+    main {
+        padding: 10px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        padding: 10px;
+        border: 2px solid #ffcc00;
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    /* Ajustes para vídeos e seções */
+    iframe {
+        height: 200px;
+    }
+
+    .summary, .presentation {
+        margin: 10px auto;
+        padding: 10px;
+        border: 2px solid #ffcc00;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .console-details {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding: 10px;
+    }
+
+    .console-details ul {
+        margin-top: 5px;
+    }
+
+    .console-details ul li {
+        margin-bottom: 5px;
+    }
+
+    /* Ajustes para equipe */
+    .team-members {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .team-members h3 {
+        margin: 5px 0;
+    }
+}
